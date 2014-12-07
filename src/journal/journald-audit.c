@@ -240,7 +240,7 @@ static const MapField map_fields_kernel[] = {
         {}
 };
 
-/* Userspace fields are thos occurring in the audit string after
+/* Userspace fields are those occurring in the audit string after
  * msg='. All of these fields are untrusted, hence carry no "_"
  * prefix. We map the fields we don't know to AUDIT_FIELD_XYZ= */
 static const MapField map_fields_userspace[] = {
